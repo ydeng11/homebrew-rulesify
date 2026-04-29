@@ -2,16 +2,16 @@ class Rulesify < Formula
   desc "Discover and install AI agent skills"
   homepage "https://github.com/ydeng11/rulesify"
   license "MIT"
-  version "0.5.0"
+  version "0.5.2"
 
   on_macos do
     on_intel do
       url "https://github.com/ydeng11/rulesify/releases/download/v#{version}/rulesify-darwin-amd64.tar.gz"
-      sha256 "c77dfbf96ff01e8430918b9d483f6f1b7fccf22062407ce9c9b84bd37a11a464"
+      sha256 "f59c69efac57c34dbf5b543c0ed5e1af17c508a08d56c93ef8280c5652c21b06"
     end
     on_arm do
       url "https://github.com/ydeng11/rulesify/releases/download/v#{version}/rulesify-darwin-arm64.tar.gz"
-      sha256 "ad7c637aee999da4e0784cc8f7a080186623c82573aeb0b303d54bbf9d43b293"
+      sha256 "26dfee0cd800ad992ee315fa40141f4215cb21931679a0e19291b52f5b76eb0b"
     end
   end
 
